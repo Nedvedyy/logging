@@ -1,7 +1,7 @@
 {
   "name": "nedved_logging",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "adding the mocha",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

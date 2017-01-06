@@ -1,4 +1,9 @@
 'use strict';
 
-// Export DDS
-module.exports = require('./lib/logging');
+module.exports = function(params) {
+    var logging = require('./lib/logging')(params);
+    return logging;
+};
+
+
+

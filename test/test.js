@@ -1,10 +1,16 @@
 'use strict';
 
 var expect = require('chai').expect;
-var logging = require('../index');
+var logger = require('../index')({
+    log_provider: 'logzio',
+    level: 'debug',
+    apiKey: 'tPTsTdkJjSfvLqFPDgorOyCYfZZiDUvK'
+});
+
+logger.customizedFunction();
 
 describe('#logging', function() {
-    it('check logging instance is created', function() {
-        expect(logging.log).to.not.be.an('undefined');
+    it('check logger instance is created', function() {
+        expect(logger.log).to.not.be.an('undefined');
     });
 });
