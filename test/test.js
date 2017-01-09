@@ -7,6 +7,8 @@ var logger = require('../index')({
     apiKey: 'tPTsTdkJjSfvLqFPDgorOyCYfZZiDUvK'
 });
 
+logger.logging('info','call it directly to test caller!');
+
 describe('#logging', function() {
     it('check logger instance is created', function() {
         expect(logger.logging).to.not.be.an('undefined');
