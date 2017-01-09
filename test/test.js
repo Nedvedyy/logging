@@ -7,10 +7,12 @@ var logger = require('../index')({
     apiKey: 'tPTsTdkJjSfvLqFPDgorOyCYfZZiDUvK'
 });
 
-logger.customizedFunction();
-
 describe('#logging', function() {
     it('check logger instance is created', function() {
-        expect(logger.log).to.not.be.an('undefined');
+        expect(logger.logging).to.not.be.an('undefined');
+    });
+    it('set/get service\'s name works', function() {
+        logger.setServiceName('TestService');
+        expect(logger.getServiceName()).to.equal('TestService');
     });
 });
