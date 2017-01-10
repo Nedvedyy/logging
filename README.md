@@ -1,5 +1,7 @@
 # logging
 
+http://microapps.com/blog/auto-publishing-to-npm-by-travis-ci/
+
 If you have an npm module hosted on Github and being built by Travis CI, you might find it convenient having Travis CI automatically publish successful builds to npm.The main idea is to get and paste a token to .travis.yml that would automate the npm publishing process. Let’s go through configuration together.
 
 Open Terminal and execute following commands:
