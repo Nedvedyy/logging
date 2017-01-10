@@ -47,4 +47,6 @@ language: node_js
 ## All is left now is to commit and push changes to GitHub.
 
 git add .travis.yml && git commit -m "Travis auto publish config" && git push
+
+
 From now on Travis CI will publish new versions of successful builds to npmjs.
