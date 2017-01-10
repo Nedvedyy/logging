@@ -1,6 +1,6 @@
 {
   "name": "nedved_logging",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "testing auto push",
   "main": "index.js",
   "scripts": {
